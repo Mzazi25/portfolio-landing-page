@@ -2,36 +2,45 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    letter-spacing: 0.01rem;
+    text-indent: 50px;
 }
 
 body {
     background: url("../images/whw.jpeg");
-    background-size: 100% 100%;
+    background-size: 140% 140%;
     background-repeat: no-repeat;
 }
 .container{
     width: 80%;
-    margin: auto;
+    margin:0%;
     padding-top: 100px;
 
 }
 .content{
-    float: left;
+    float:right;
     width: 70%;
     color:white;
     font-size: 100%;
 }
-.my-image{
-    float: right;
+.my-image img{
+    float: left;
+    border-radius: 20%;
 
 }
 h1{
     color:white;
-    text-align: center;
+    text-align: left;
 }
 .slide{
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    color: snow;
+    display: inline-block;
+    background:grey;
+    font-size: 100%;
+    border-radius: 10%;
+    color: teal;
+    padding: 1.5rem 3rem;
+        
+}
+.list{text-align: centre;
+
 }
