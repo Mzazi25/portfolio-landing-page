@@ -10,6 +10,7 @@ body {
     background: url("../images/whw.jpeg");
     background-size: 140% 140%;
     background-repeat: no-repeat;
+    line-height: 35px;
 }
 .container{
     width: 80%;
