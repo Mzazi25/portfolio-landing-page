@@ -1,16 +1,37 @@
-.container{
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 3rem;
-    margin-top: 4rem;
-    text-align: center;
+*{ 
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
 
+body {
+    background: url("../images/whw.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
 
 }
-.image { 
-    height: 50%;
-    width: 50%;
-    padding-left: 1rem;
-    max-width: 1000px;
-    
+.content{
+    float: left;
+    width: 70%;
+    color:white;
+    font-size: 100%;
+}
+.my-image{
+    float: right;
+
+}
+h1{
+    color:white;
+    text-align: center;
+}
+.slide{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    color: snow;
 }
